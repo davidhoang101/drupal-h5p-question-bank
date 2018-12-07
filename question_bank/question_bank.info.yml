@@ -1,0 +1,5 @@
+name: 'question_bank'
+type: module
+description: 'Questions Bank'
+core: 8.x
+package: 'Custom'

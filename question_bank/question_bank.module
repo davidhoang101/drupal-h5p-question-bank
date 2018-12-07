@@ -1,0 +1,35 @@
+<?php
+
+/**
+ * @file
+ * Contains question_bank.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function question_bank_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the question_bank module.
+    case 'help.page.question_bank':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Questions Bank') . '</p>';
+      return $output;
+
+    default:
+  }
+}
+
+/**
+ * Implements hook_theme().
+ */
+function question_bank_theme() {
+  return [
+    'question_bank' => [
+      'render element' => 'children',
+    ],
+  ];
+}

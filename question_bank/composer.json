@@ -1,0 +1,14 @@
+{
+  "name": "drupal/question_bank",
+  "type": "drupal-module",
+  "description": "Questions Bank",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/question_bank",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://www.drupal.org/project/issues/question_bank",
+    "source": "http://cgit.drupalcode.org/question_bank"
+  },
+  "require": { }
+}
